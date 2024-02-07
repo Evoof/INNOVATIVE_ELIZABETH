@@ -1,0 +1,240 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-nav {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 47, 47);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1144px;
+    /* position: fixed; */
+}
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img {
+    height: 70px;
+    width: 200px;
+}
+.menu a {
+    margin: 0 16px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.menu a:hover {
+    color: purple;
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+}
+.btn1 {
+    background-color: ;
+    color: rgb(70, 67, 67);
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-style: none;
+    transition: all 0.25s ease;
+}
+.btn1:hover {
+    background-color: purple;  
+    color: white; 
+    cursor: pointer;
+}
+.btn {
+    color: rgb(70, 67, 67);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-style: none;
+    transition: all 0.25s ease;
+}
+.btn:hover {
+    background-color: purple;  
+    color: white; 
+    cursor: pointer;
+}
+.btn2 {
+    margin-right: 10px;
+}
+.btn3 {
+    margin-left: 10px;
+}
+.with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.with-icon > img {
+    transition: transform 0.25s ease;
+}
+.with-icon:hover > img {
+    transform: translateX(5px);
+}
+.button1 {
+    color: rgb(70, 67, 67);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border-style: none;
+    transition: all 0.25s ease;
+}
+.button1:hover {
+    background-color: purple;  
+    color: white; 
+    cursor: pointer;
+}
+.main {
+    width: 100%;
+    position: relative;
+}
+.wrapper {
+    background-image: url(img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    height: 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-inside {
+    display: flex;
+    background-color: rgb(245, 134, 245);
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+    border-radius: 100px;
+    opacity: 0.8;
+    position: absolute;
+}
+.box {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0 auto;
+}
+.paragraph {
+    /* line-height: 30px; */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+span {
+    color: purple;
+    font-weight: bold;
+}
+.partners-section {
+    margin: 100px auto;
+    max-width: 90%;
+    padding: 0 16px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px auto;
+    max-width: 90%;
+    padding: 0 16px;
+}
+.container-section img {
+    height: 900px;
+    width: 1500px;
+    margin: 0;
+}
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+.h31 {
+    letter-spacing: 5px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card-container {
+    height: 550px;
+    width: 400px;
+    padding: 15px;
+    box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.8);
+    margin: 0 20px;
+}
+.card-section img {
+    height: 300px;
+    width: 400px;
+}
+.card-section2 {
+    width: 300px;
+}
+.main-footer {
+    margin: 100px auto;
+    padding: 0 16px;
+    height: 300px;
+    width: 100%;
+    border: 1px solid red;
+}
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer-container {
+    height: 100%;
+    width: 400px;
+    padding: 15px;
+    margin: 0 20px;
+}
+.footer-section img {
+    height: 70px;
+    width: 200px;
+}
+
