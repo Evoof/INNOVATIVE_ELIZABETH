@@ -21,7 +21,6 @@ body {
     align-items: center;
     width: 100%;
     max-width: 1144px;
-    /* position: fixed; */
 }
 .menu {
     display: flex;
@@ -48,9 +47,8 @@ body {
     display: flex;
 }
 .btn1 {
-    background-color: ;
+    background-color: white;
     color: rgb(70, 67, 67);
-    font-family: "Roboto";
     font-weight: bold;
     font-size: 15px;
     padding: 8px 16px;
@@ -128,15 +126,20 @@ body {
 }
 .box-inside {
     display: flex;
-    background-color: rgb(245, 134, 245);
     justify-content: center;
     align-items: center;
     height: 600px;
     width: 800px;
-    border-radius: 100px;
     opacity: 0.8;
     position: absolute;
-}
+    /* From https://css.glass */
+    background: rgba(193, 56, 135, 0.68);
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(193, 56, 135, 0.85);
+    }
 .box {
     height: 400px;
     width: 700px;
@@ -150,22 +153,33 @@ h1 {
     font-weight: bold;
     font-size: 70px;
     margin: 0 auto;
+    color: white;
 }
 .paragraph {
-    /* line-height: 30px; */
     font-size: 40px;
     font-weight: bold;
     text-align: left;
     text-align: center;
+    color: white;
 }
-span {
-    color: purple;
-    font-weight: bold;
+.partner-section {
+    margin-top: 0;
 }
-.partners-section {
+.parterns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 32px;
+    width: 100%;
     margin: 100px auto;
     max-width: 90%;
     padding: 0 16px;
+}
+.parterns-grid img {
+    height: 60px;
+    place-self: center;
+    margin-top: 0;
 }
 .container {
     display: flex;
@@ -224,7 +238,6 @@ footer {
     padding: 0 16px;
     height: 300px;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,6 +253,31 @@ footer {
     height: 70px;
     width: 200px;
     margin-top: 10px;
+}
+.social {
+    justify-self: center;
+}
+.social i {
+    color: white;
+    margin-right: .5rem;
+}
+.social i:hover {
+    color: rgb(68, 151, 223);
+}
+.another {
+    background-color: rgb(68, 151, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.another-container {
+    height: 100%;
+    width: 500px;
+    padding: 15px;
+}
+h3 {
+    color: white;
+    font-size: 15px;
 }
 
 

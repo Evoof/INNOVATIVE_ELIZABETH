@@ -33,7 +33,8 @@ body {
     font-weight: bold;
 }
 .navbar .right a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: purple;
 }
 .navbar .right {
     width: 400px;
